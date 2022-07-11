@@ -38,7 +38,7 @@ export class ProfileComponent implements OnInit {
         this.profileForm.patchValue({ ...user });
       });
   }
-
+/*
   saveProfile() {
     const profileData = this.profileForm.value;
     this.usersService
@@ -52,4 +52,5 @@ export class ProfileComponent implements OnInit {
       )
       .subscribe();
   }
+  */
 }

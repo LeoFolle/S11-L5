@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit {
     }
 
     const { email, password } = this.loginForm.value;
-    this.authService.login(email, password).pipe(
+    this.authService.login(email!, password!).pipe(
       this.toast.observe({
         success: 'Login con successo',
         loading: 'Logging in...',

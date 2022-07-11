@@ -1,9 +1,9 @@
 export interface ProfileUser {
   uid: string;
-  email?: string;
+  email?: any;
   firstName?: string;
   lastName?: string;
-  displayName?: string;
+  displayName: any;
   phone?: string;
   address?: string;
   photoURL?: string;
