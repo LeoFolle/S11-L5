@@ -7,7 +7,7 @@ import { ProfileUser } from 'src/app/models/user';
 import { UsersService } from 'src/app/services/users.service';
 
 //questa pagina permette all'utente di cambiare i propri dati, guardare modules/user.ts per vedere il profilo dell'utente
-
+//voglio aggiungere l'opzione di modifica in futuro e anche un opzione di upload di foto profilo
 @UntilDestroy() //until destroy di ng neat permette di disiscriversi dall'observable in modo efficace
 @Component({
   selector: 'app-profile',
